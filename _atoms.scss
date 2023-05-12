@@ -23,6 +23,25 @@
   margin-top: 1em;
   padding-top: 1.5em;
 }
+@mixin button(){
+  align-items: center; 
+  background-clip: padding-box;
+  background-color: $background-color;
+  background-image: none;
+  border-style:groove;
+  border-color: $accent1;
+  box-sizing: border-box;
+  color: $text-dark;
+  cursor: pointer;
+  font-family: $fonts-headline;
+  font-size: 16px;
+  font-weight: 800;
+  min-height: 64px;
+  padding: 19px 26px;
+  border-radius: 80px;
+}
+
+
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h2,
 h3,
@@ -67,11 +86,17 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-style: italic;
+  font-weight: bold;
   color: $text-dark;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
 a:hover {
-  border-color: $accent1;
+  color: $in-text-link-color;
+  text-decoration: none;
+}
+
+.generalButton{
+  @include button();
 }
