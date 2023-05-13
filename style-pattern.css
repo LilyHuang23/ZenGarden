@@ -1,12 +1,23 @@
+/*$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
+$fonts-body: verdana, arial, sans-serif;
+$background-color: #daede2;
+$primary: #77c4d3;
+$accent1: #ea2e49;
+$accent2: rgba(246, 247, 146, 0.9);
+$grey-sidebar: rgba(51, 55, 69, 0.9);
+$text-dark: #333;
+$text-light: #fff;
+$in-text-link-color:#ea2e49;*/
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 h2,
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
+  font-family: "Sacramento", cursive;
   margin: 0;
 }
 
 h1 {
-  background: #ea2e49;
+  background: #572F2B;
   color: #fff;
   display: inline-block;
   font-weight: normal;
@@ -15,7 +26,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #333;
   font-weight: 900; /* Heavy */
   font-size: 6em;
   letter-spacing: 1px;
@@ -62,14 +73,14 @@ a:hover {
 .generalButton {
   align-items: center;
   background-clip: padding-box;
-  background-color: #daede2;
+  background-color: #B4C3AE;
   background-image: none;
   border-style: groove;
-  border-color: #ea2e49;
+  border-color: #572F2B;
   box-sizing: border-box;
   color: #333;
   cursor: pointer;
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
+  font-family: "Sacramento", cursive;
   font-size: 16px;
   font-weight: 800;
   min-height: 64px;
@@ -82,7 +93,7 @@ a:hover {
 }
 
 html {
-  background-color: #daede2;
+  background-color: #B4C3AE;
   padding: 5%;
 }
 
@@ -90,7 +101,7 @@ body {
   font-family: verdana, arial, sans-serif;
   font-size: 85%;
   color: #333;
-  background-color: #77c4d3;
+  background-color: #DDCBB4;
   margin: 0;
   padding: 1em;
 }
@@ -121,15 +132,15 @@ section {
 }
 
 .primary {
-  background-color: #77c4d3;
+  background-color: #DDCBB4;
 }
 
 .accent1 {
-  background-color: #ea2e49;
+  background-color: #572F2B;
 }
 
 .accent2 {
-  background-color: rgba(246, 247, 146, 0.9);
+  background-color: #B4C3AE;
 }
 
 .text-dark {
@@ -153,7 +164,7 @@ section {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #333;
 }
 
 /*# sourceMappingURL=style-pattern.css.map */
