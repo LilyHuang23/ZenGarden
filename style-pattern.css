@@ -80,7 +80,7 @@ a:hover {
   box-sizing: border-box;
   color: #333;
   cursor: pointer;
-  font-family: "Sacramento", cursive;
+  font-family: verdana, arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   min-height: 64px;
