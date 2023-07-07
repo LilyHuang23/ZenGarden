@@ -1,8 +1,17 @@
 h2,
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
-  margin: 0;
+font-family: "arial narrow", Arial, Verdana, sans-serif;
+$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
+$fonts-body: verdana, arial, sans-serif;
+$background-color: #daede2;
+$primary: #77c4d3;
+$accent1: #ea2e49;
+$accent2: rgba(246, 247, 146, 0.9);
+$grey-sidebar: rgba(51, 55, 69, 0.9);
+$text-dark: #333;
+$text-light: #fff;
+$in-text-link-color:#ea2e49;
 }
 
 h1 {
@@ -121,15 +130,15 @@ section {
 }
 
 .primary {
-  background-color: #77c4d3;
+  background-color: #DDCBB4;
 }
 
 .accent1 {
-  background-color: #ea2e49;
+  background-color: #572F2B;
 }
 
 .accent2 {
-  background-color: rgba(246, 247, 146, 0.9);
+  background-color: #B4C3AE;
 }
 
 .text-dark {
@@ -153,7 +162,7 @@ section {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #333;
 }
 
 /*# sourceMappingURL=style-pattern.css.map */
