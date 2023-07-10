@@ -1,4 +1,4 @@
-/*$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
+$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
 $fonts-body: verdana, arial, sans-serif;
 $background-color: #daede2;
 $primary: #77c4d3;
@@ -7,15 +7,17 @@ $accent2: rgba(246, 247, 146, 0.9);
 $grey-sidebar: rgba(51, 55, 69, 0.9);
 $text-dark: #333;
 $text-light: #fff;
-$in-text-link-color:#ea2e49;*/
+$in-text-link-color:#ea2e49;
 
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond&display=swap');
 
 $fonts-headline: 'Sacramento', cursive; //"arial narrow", Arial, Verdana, sans-serif;
 $fonts-body: verdana, arial, sans-serif;
 $background-color: #B4C3AE;
 $primary: #DDCBB4;
-$accent1: #572F2B;
+$accent1: #864723;
 $accent2:  #B4C3AE;
 $grey-sidebar: rgba(51, 55, 69, 0.9);
 $text-dark: #333;
