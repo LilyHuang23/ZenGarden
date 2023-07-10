@@ -12,15 +12,15 @@ h1 {
   background: #864723;
   color: #fff;
   display: inline-block;
-  font-weight: normal;
+  font-weight: 900;
   margin-bottom: 1em;
   padding: 0.5em 1em;
 }
 
 h2 {
   color: #333;
-  font-weight: 900; /* Heavy */
-  font-size: 6em;
+  font-weight: normal;
+  font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
 }
@@ -141,48 +141,14 @@ body {
   padding: 1em;
 }
 
+.page-wrapper {
+  width: fit-content;
+}
+
 .intro {
-  background-image: url("Assets/AdobeStock_126696199.jpeg");
-  background-size: cover;
-}
-
-#zen-intro {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3, 300px 1fr 1fr;
-}
-
-#zen-intro header {
-  display: grid;
-  grid-column: 1/span 3;
-  justify-content: center;
-  align-items: center;
-}
-
-#zen-intro h1 {
-  display: grid;
-  justify-content: center;
-  font-family: "EB Garamond", serif;
-  font-size: xx-large;
-  border-radius: 50px;
-  opacity: 90%;
-  padding: 20px;
-  margin-left: 168px;
-  margin-right: 168px;
   background-color: #864723;
-}
-
-#zen-intro h2 {
-  font-size: 5em;
-}
-
-#zen-summary {
-  grid-row-start: 2;
-}
-
-#zen-preamble {
-  grid-column-start: 1/2;
-  grid-row-start: 3;
+  width: 400px;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
