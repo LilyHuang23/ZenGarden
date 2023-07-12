@@ -53,14 +53,14 @@ h1 {
   background: $accent1;
   color: $text-light;
   display: inline-block;
-  font-weight: normal;
+  font-weight: 900;
   margin-bottom: 1em;
   padding: 0.5em 1em;
 }
 h2 {
   color: $text-dark;
-  font-weight: 900; /* Heavy */
-  font-size: 6em;
+  font-weight: normal; 
+  font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
 }

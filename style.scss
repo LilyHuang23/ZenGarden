@@ -11,7 +11,6 @@ html {
   background-color: $background-color;
   padding: 5%;
 }
-
 body {
   display: grid;
   font-family: $fonts-body;
@@ -21,48 +20,63 @@ body {
   margin: 0;
   padding: 1em;
 }
-
+// small screen
+.page-wrapper{
+  width: fit-content;
+}
 .intro {
-  background-image: url("Assets/AdobeStock_126696199.jpeg");
-  background-size: cover;
-  // transform: scaleX(-1);
+  background-color: $accent1;
+  width: 400px;
+  padding: 15px;
 }
 
-#zen-intro {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3, 300px 1fr 1fr;
-}
 
-#zen-intro header {
-  display: grid;
-  grid-column: 1/ span 3;
-  justify-content: center;
-  align-items: center;
-}
 
-#zen-intro h1 {
-  display: grid;
-  justify-content: center;
-  font-family: 'EB Garamond', serif;
-  font-size: xx-large;
-  border-radius: 50px;
-  opacity: 90%;
-  padding: 20px;
-  margin-left: 168px;
-  margin-right: 168px;
-  background-color: #864723;
-}
 
-#zen-intro h2 {
-  font-size: 5em;
-}
+// @media screen and (max-width: 600px) {
 
-#zen-summary {
-  grid-row-start: 2;
-}
+// .intro {
+//   background-image: url("Assets/AdobeStock_126696199.jpeg");
+//   background-size: cover;
+//   // transform: scaleX(-1);
+// }
 
-#zen-preamble {
-  grid-column-start: 1/2;
-  grid-row-start: 3;
-}
+// #zen-intro {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-template-rows: 3, 300px 1fr 1fr;
+// }
+
+// #zen-intro header {
+//   display: grid;
+//   grid-column: 1/ span 3;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// #zen-intro h1 {
+//   display: grid;
+//   justify-content: center;
+//   font-family: 'EB Garamond', serif;
+//   font-size: xx-large;
+//   border-radius: 50px;
+//   opacity: 90%;
+//   padding: 20px;
+//   margin-left: 168px;
+//   margin-right: 168px;
+//   background-color: #864723;
+// }
+
+// #zen-intro h2 {
+//   font-size: 5em;
+// }
+
+// #zen-summary {
+//   grid-row-start: 2;
+// }
+
+// #zen-preamble {
+//   grid-column-start: 1/2;
+//   grid-row-start: 3;
+// }
+// }
