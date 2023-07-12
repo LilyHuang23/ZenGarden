@@ -143,7 +143,7 @@ body {
 
 .intro {
   background-color: #864723;
-  width: 400px;
+  width: 100%;
   padding: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -166,20 +166,39 @@ body {
 
 @media screen and (min-width: 600px) {
   .page-wrapper {
-    width: 600px;
+    width: 100%;
   }
   .intro {
     background-color: #864723;
-    width: 600px;
+    min-width: 600px;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
+    max-height: auto;
+    background-image: url("Assets/hero.jpeg");
+    background-size: cover;
+  }
+  #zen-intro h1 {
+    display: grid;
+    justify-content: center;
+    font-family: "EB Garamond", serif;
+    font-size: large;
+    border-radius: 50px;
+    opacity: 90%;
+    padding: 20px;
+    margin-left: 168px;
+    margin-right: 168px;
+    background-color: #864723;
   }
   .explanation, .participation, .benefits, .requirements {
-    width: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
   html {
     background-color: #B4C3AE;
     padding: 5%;
@@ -190,12 +209,16 @@ body {
     font-size: 85%;
     color: #333;
     background-color: #DDCBB4;
+    height: auto;
     padding: 1em;
   }
   .page-wrapper {
-    width: 1200px;
+    width: 100%;
+    height: auto;
   }
   .intro {
+    max-width: 100%;
+    max-height: auto;
     background-image: url("Assets/hero.jpeg");
     background-size: cover;
   }
@@ -215,9 +238,7 @@ body {
   #zen-intro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3, 300px 1fr 1fr;
-    margin-left: 10%;
-    width: 90%;
+    width: 100%;
   }
   #zen-intro header {
     display: grid;
