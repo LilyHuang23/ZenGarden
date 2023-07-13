@@ -209,6 +209,7 @@ body {
     font-size: 85%;
     color: #333;
     background-color: #DDCBB4;
+    border-radius: 50px;
     height: auto;
     padding: 1em;
   }
@@ -221,19 +222,35 @@ body {
     max-height: auto;
     background-image: url("Assets/hero.jpeg");
     background-size: cover;
+    border-radius: 50px;
   }
   .preamble {
+    width: 100%;
     background: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
     color: #333;
-    margin-left: -30%;
-    padding: 5% 5% 5% 30%;
+    padding: 5%;
+    margin: 5%;
   }
-  .explanation, .participation, .benefits, .requirements {
+  .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+    display: grid;
     background: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
     color: #333;
-    margin-left: -10%;
-    padding: 5% 5% 5% 20%;
-    width: 1200px;
+    padding: 5%;
+    width: 50%;
+    margin-top: 5%;
+    font-size: x-small;
+  }
+  .explanation:hover,
+  .participation:hover,
+  .benefits:hover,
+  .requirements:hover,
+  .design-selection:hover,
+  .design-archives:hover,
+  .zen-resources:hover {
+    width: 100%;
+    font-size: large;
   }
   #zen-intro {
     display: grid;
@@ -267,6 +284,42 @@ body {
   #zen-preamble {
     grid-column-start: 1/2;
     grid-row-start: 3;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer a {
+    display: flex;
+    width: 75px;
+    height: 100px;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 20px;
+    font-size: large;
+  }
+  .zen-validate-html {
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/HTML5_logo_and_wordmark.svg.png");
+    background-size: contain;
+    height: auto;
+    color: transparent;
+  }
+  a.zen-validate-html:hover {
+    color: transparent;
+  }
+  .zen-validate-css {
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/CSS3_logo_and_wordmark.svg.png");
+    background-size: contain;
+    height: auto;
+    color: transparent;
+  }
+  a.zen-validate-css:hover {
+    color: transparent;
   }
 }
 
