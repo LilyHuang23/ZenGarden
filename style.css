@@ -312,6 +312,19 @@ body {
   .zen-resources:hover ul {
     display: block;
   }
+  .design-selection:hover ul,
+  .design-archives:hover ul,
+  .zen-resources:hover ul {
+    margin-left: 4%;
+    padding: 1%;
+    padding-bottom: 4%;
+  }
+  .design-selection:hover h3,
+  .design-archives:hover h3,
+  .zen-resources:hover h3 {
+    margin-top: 2%;
+    margin-left: 4%;
+  }
   footer {
     display: flex;
     justify-content: center;
