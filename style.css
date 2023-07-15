@@ -289,23 +289,26 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   footer a {
     display: flex;
-    width: 75px;
-    height: 100px;
+    height: auto;
     margin-top: 2%;
-    padding: 5%;
-    border-radius: 20px;
-    font-size: large;
+    padding: 3%;
   }
   .zen-validate-html {
     display: flex;
     justify-content: center;
     background-image: url("Assets/HTML5_logo_and_wordmark.svg.png");
-    background-size: contain;
+    background-size: cover;
+    width: 11%;
     height: auto;
     color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   a.zen-validate-html:hover {
     color: transparent;
@@ -314,11 +317,60 @@ body {
     display: flex;
     justify-content: center;
     background-image: url("Assets/CSS3_logo_and_wordmark.svg.png");
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    width: 8%;
     height: auto;
     color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   a.zen-validate-css:hover {
+    color: transparent;
+  }
+  .zen-license {
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/Artboard 1.png");
+    background-position: center;
+    background-size: cover;
+    width: 8%;
+    height: auto;
+    color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  a.zen-license:hover {
+    color: transparent;
+  }
+  .zen-accessibility {
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/Artboard 2.png");
+    background-position: center;
+    background-size: cover;
+    width: 8%;
+    height: auto;
+    color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  a.zen-accessibility:hover {
+    color: transparent;
+  }
+  .zen-github {
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/Artboard 3.png");
+    background-position: center;
+    background-size: cover;
+    width: 8%;
+    height: auto;
+    color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  a.zen-github:hover {
     color: transparent;
   }
 }
