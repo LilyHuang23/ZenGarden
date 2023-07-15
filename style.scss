@@ -118,37 +118,6 @@ body {
   margin: 5%;
 }
 
-.main {
- 
-  
-}
-
-
-
-.explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources{
-  display: grid;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 50px;
-  color: #333;
-  padding: 5%;
-  width: 50%;
-  margin-top: 5%;
-  font-size: x-small;
-}
-
-.explanation:hover,
- .participation:hover,
-  .benefits:hover,
-  .requirements:hover,
-  .design-selection:hover,
-  .design-archives:hover,
-  .zen-resources:hover{
-  width: 100%;
-  font-size: large;
-}
-
-
-  
 #zen-intro {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -188,6 +157,62 @@ body {
   grid-column-start: 1/2;
   grid-row-start: 3;
 }
+
+
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.design-selection,
+.design-archives,
+.zen-resources {
+  display: flex;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  color: #333;
+  width: 30%;
+  min-height: 150px;
+  margin-top: 5%;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+}
+
+.explanation:hover,
+ .participation:hover,
+  .benefits:hover,
+  .requirements:hover,
+  .design-selection:hover,
+  .design-archives:hover,
+  .zen-resources:hover{
+  width: 100%;
+  font-size: large;
+  display: block;
+}
+
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p,
+.design-selection ul,
+.design-archives ul,
+.zen-resources ul
+ {
+  display: none;
+}
+
+.explanation:hover p,
+.participation:hover p,
+.benefits:hover p,
+.requirements:hover p,
+.design-selection:hover ul,
+.design-archives:hover ul,
+.zen-resources:hover ul
+{
+  display: block;
+}
+  
+
 
 footer{
   display: flex;
