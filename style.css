@@ -287,11 +287,7 @@ body {
   }
   footer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    height: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
   }
   footer a {
     display: flex;
@@ -304,7 +300,7 @@ body {
     justify-content: center;
     background-image: url("Assets/HTML5_logo_and_wordmark.svg.png");
     background-size: cover;
-    width: 11%;
+    width: 7%;
     height: auto;
     color: transparent;
     margin-left: 10px;
@@ -319,7 +315,7 @@ body {
     background-image: url("Assets/CSS3_logo_and_wordmark.svg.png");
     background-position: center;
     background-size: cover;
-    width: 8%;
+    width: 7%;
     height: auto;
     color: transparent;
     margin-left: 10px;
